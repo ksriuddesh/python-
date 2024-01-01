@@ -1,0 +1,22 @@
+print("himan basic calculator :....")
+
+def multiply(num1 , num2):
+    res = num1*num2 
+    return res 
+def add(num1 , num2):
+    res = num1+num2 
+    return res 
+def sub(num1 , num2):
+    res = num1-num2 
+    return res 
+def div(num1 , num2):
+    res = num1/num2 
+    return res 
+
+print("enter numbers for basic calculations :")
+n1 = int(input())
+n2 = int(input())
+print(multiply(n1,n2))
+print(add(n1,n2))
+print(sub(n1,n2))
+print(div(n1,n2))
